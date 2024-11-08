@@ -59,7 +59,7 @@ jobs:
           name: ptr-data-jsons
       - name: Commit & Push
         run: |
-          git config --global user.email "ashe@soaringnetwork.com"
+          git config --global user.email "waxyshaw@gmail.com"
           git config --global user.name "Github Actions"
           if [[ `git status --porcelain` ]]; then
             git commit -am "Github-Actions Data Sync"
